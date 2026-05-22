@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>暖暖空间居民端首页</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="phone-shell" aria-label="暖暖空间居民端首页">
+      <section class="home-page">
+        <header class="topbar">
+          <button class="community-switch" aria-label="切换社区">
+            <span class="community-name">暖暖空间·半淞园</span>
+            <span class="chevron">⌄</span>
+          </button>
+          <button class="avatar-button" aria-label="进入我的">
+            <span>暖</span>
+          </button>
+        </header>
+
+        <button class="notice-strip" aria-label="查看公告详情">
+          <span class="notice-label">公告</span>
+          <span class="notice-text">本周六名医公益讲座开放报名，剩余 18 个名额</span>
+        </button>
+
+        <section class="hero-banner" aria-label="焦点活动">
+          <div class="hero-copy">
+            <p>开业主活动</p>
+            <h1>
+              <span>社区<em>更有爱</em></span>
+              <span>邻里<em>更温暖</em></span>
+            </h1>
+            <span>公益活动、萌宠影像、邻里共创，在暖暖空间持续发生</span>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="sun"></div>
+            <div class="building b1"></div>
+            <div class="building b2"></div>
+            <div class="pet"></div>
+          </div>
+          <div class="banner-dots" aria-hidden="true">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </section>
+
+        <nav class="quick-grid" aria-label="功能入口">
+          <a href="#activity" class="quick-item">
+            <span class="quick-icon activity">活</span>
+            <span>活动报名</span>
+          </a>
+          <a href="#star" class="quick-item">
+            <span class="quick-icon star">星</span>
+            <span>社区明星</span>
+          </a>
+          <a href="#public-good" class="quick-item">
+            <span class="quick-icon good">益</span>
+            <span>社区公益</span>
+          </a>
+          <a href="#pet" class="quick-item">
+            <span class="quick-icon pet-icon" aria-label="微笑柯基犬图片"></span>
+            <span>萌宠潮玩</span>
+          </a>
+          <a href="#neighbor" class="quick-item">
+            <span class="quick-icon neighbor">邻</span>
+            <span>邻里互助</span>
+          </a>
+          <button type="button" class="quick-item disabled" onclick="alert('到店签到功能即将开放，敬请期待。')">
+            <span class="quick-icon check">签</span>
+            <span>到店签到</span>
+            <small class="quick-note">即将开放</small>
+          </button>
+        </nav>
+
+        <section class="content-flow" aria-label="内容推荐">
+          <article class="feature-card activity-card" id="activity">
+            <div class="card-image lecture-image" aria-hidden="true">
+              <span>公益讲座</span>
+            </div>
+            <div class="card-body">
+              <p class="section-kicker">活动报名</p>
+              <h2>本周公益讲座</h2>
+              <p class="meta">周六 14:30 ｜ 暖暖空间多功能厅 ｜ 剩余 18 名额</p>
+              <button>立即报名</button>
+            </div>
+          </article>
+
+          <article class="feature-card" id="star">
+            <div class="section-heading">
+              <div>
+                <p class="section-kicker">社区明星</p>
+                <h2>本周推荐</h2>
+              </div>
+              <button class="ghost-button">查看更多</button>
+            </div>
+            <div class="star-row">
+              <div class="star-card">
+                <span class="portrait p1">林</span>
+                <strong>林阿姨</strong>
+                <span class="star-role">热心邻里</span>
+                <span class="star-like">♡ 128</span>
+              </div>
+              <div class="star-card">
+                <span class="portrait p2">豆</span>
+                <strong>豆包</strong>
+                <span class="star-role">萌宠明星</span>
+                <span class="star-like">♡ 96</span>
+              </div>
+              <div class="star-card">
+                <span class="portrait p3">周</span>
+                <strong>周医生</strong>
+                <span class="star-role">志愿者</span>
+                <span class="star-like">♡ 84</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card project-card" id="public-good">
+            <p class="section-kicker">社区公益｜项目进行中</p>
+            <h2>暖暖社区共益计划</h2>
+            <p>联合公益机构与社区居民，持续开展公益讲座、志愿服务与社区共建行动。</p>
+            <div class="progress">
+              <span style="width: 68%"></span>
+            </div>
+            <div class="card-footer">
+              <small>已开展 3 场社区公益活动</small>
+              <button>查看详情</button>
+            </div>
+          </article>
+
+          <article class="feature-card pet-card" id="pet">
+            <div class="pet-photo" aria-hidden="true">
+              <span>Lucky</span>
+            </div>
+            <div class="card-body">
+              <p class="section-kicker">萌宠潮玩｜社区萌宠形象照</p>
+              <h2>Lucky 的春日写真</h2>
+              <p>柯基，喜欢在花坛旁等小朋友放学。已有 213 次点赞。</p>
+              <button>免费报名拍形象照</button>
+            </div>
+          </article>
+
+          <article class="feature-card neighbor-card" id="neighbor">
+            <p class="section-kicker">邻里互助｜社区共创项目</p>
+            <h2>一起照顾楼下的小花园</h2>
+            <div class="tag-row">
+              <span>绿化共创</span>
+              <span>环卫共创</span>
+              <span>流浪猫喂养</span>
+              <span>领养协助</span>
+            </div>
+            <div class="card-footer">
+              <small>报名后由社群管理员统一协调</small>
+              <button>参与报名</button>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <nav class="bottom-nav" aria-label="底部导航">
+        <a class="active" href="#">首页</a>
+        <a href="#activity">活动</a>
+        <a href="#public-good">公益</a>
+        <a href="#mine">我的</a>
+      </nav>
+    </main>
+  </body>
+</html>

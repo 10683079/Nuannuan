@@ -1,0 +1,56 @@
+<svg width="520" height="640" viewBox="0 0 520 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 170) rotate(90) scale(420 340)">
+      <stop stop-color="#FFF5D3"/>
+      <stop offset=".56" stop-color="#F8C889"/>
+      <stop offset="1" stop-color="#E9A66C"/>
+    </radialGradient>
+    <radialGradient id="fur" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(258 312) rotate(90) scale(226 205)">
+      <stop stop-color="#D99553"/>
+      <stop offset=".42" stop-color="#BD6F34"/>
+      <stop offset="1" stop-color="#89451F"/>
+    </radialGradient>
+    <radialGradient id="muzzle" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260 372) rotate(90) scale(146 120)">
+      <stop stop-color="#FFF8EC"/>
+      <stop offset="1" stop-color="#F4D2AE"/>
+    </radialGradient>
+    <linearGradient id="earLeft" x1="92" y1="74" x2="178" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A85625"/>
+      <stop offset="1" stop-color="#D78945"/>
+    </linearGradient>
+    <linearGradient id="earRight" x1="430" y1="74" x2="342" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A85625"/>
+      <stop offset="1" stop-color="#D78945"/>
+    </linearGradient>
+    <filter id="softShadow" x="29" y="52" width="466" height="525" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#8A4B27" flood-opacity=".26"/>
+    </filter>
+  </defs>
+  <rect width="520" height="640" rx="42" fill="url(#sun)"/>
+  <path d="M0 442C70 386 144 379 220 420C306 466 400 451 520 362V640H0V442Z" fill="#D9EBC9" opacity=".72"/>
+  <circle cx="102" cy="126" r="42" fill="#FFF5C7" opacity=".58"/>
+  <g filter="url(#softShadow)">
+    <path d="M130 223C82 107 111 54 198 171L190 275L130 223Z" fill="url(#earLeft)"/>
+    <path d="M390 223C438 107 409 54 322 171L330 275L390 223Z" fill="url(#earRight)"/>
+    <path d="M154 207C163 129 206 83 260 83C314 83 357 129 366 207C439 242 461 337 427 431C393 524 323 560 260 560C197 560 127 524 93 431C59 337 81 242 154 207Z" fill="url(#fur)"/>
+    <path d="M155 222C164 145 211 94 260 94C309 94 356 145 365 222C331 203 296 193 260 193C224 193 189 203 155 222Z" fill="#F3B26C" opacity=".72"/>
+    <path d="M152 332C152 242 197 174 260 174C323 174 368 242 368 332C368 462 320 542 260 542C200 542 152 462 152 332Z" fill="#FFF2DC"/>
+    <path d="M128 330C139 276 169 238 207 224C187 265 181 321 192 380C167 372 145 355 128 330Z" fill="#A85D2C" opacity=".44"/>
+    <path d="M392 330C381 276 351 238 313 224C333 265 339 321 328 380C353 372 375 355 392 330Z" fill="#A85D2C" opacity=".44"/>
+    <ellipse cx="202" cy="320" rx="25" ry="30" fill="#FFF9EF"/>
+    <ellipse cx="318" cy="320" rx="25" ry="30" fill="#FFF9EF"/>
+    <circle cx="205" cy="326" r="12" fill="#2B211B"/>
+    <circle cx="315" cy="326" r="12" fill="#2B211B"/>
+    <circle cx="210" cy="320" r="4" fill="#fff"/>
+    <circle cx="320" cy="320" r="4" fill="#fff"/>
+    <path d="M171 158C155 112 168 96 197 143L184 205L171 158Z" fill="#F2A063" opacity=".82"/>
+    <path d="M349 158C365 112 352 96 323 143L336 205L349 158Z" fill="#F2A063" opacity=".82"/>
+    <path d="M179 406C195 372 223 352 260 352C297 352 325 372 341 406C330 465 301 495 260 495C219 495 190 465 179 406Z" fill="url(#muzzle)"/>
+    <path d="M229 389C229 373 243 361 260 361C277 361 291 373 291 389C291 404 278 414 260 414C242 414 229 404 229 389Z" fill="#3F2B21"/>
+    <path d="M260 410V439" stroke="#3F2B21" stroke-width="8" stroke-linecap="round"/>
+    <path d="M213 442C229 468 245 480 260 480C275 480 291 468 307 442" stroke="#3F2B21" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="156" cy="394" r="25" fill="#D98071" opacity=".32"/>
+    <circle cx="364" cy="394" r="25" fill="#D98071" opacity=".32"/>
+  </g>
+  <path d="M76 575C137 599 199 611 260 611C321 611 383 599 444 575" stroke="#FFF8EA" stroke-width="20" stroke-linecap="round" opacity=".34"/>
+</svg>
